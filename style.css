@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Bungee', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #182c61;
+    color: #f8f8f8;
+    width: 100%;
+}
+
+h1, h2, h3, nav {
+    font-family: 'Bungee', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f8f8f8;
+    padding: 10px 0px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+}
+
+header {
+    padding: 16px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #e2e2e2;
+    margin-left: 15px;
+}
+
+main {   
+    background-color: #f8f8f8;
+    color: #182c61;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about div {
+    padding: 24px 0px;
+}
+
+.about > div > img {
+    border-radius: 5px;
+}
+
+.about-loja {
+    margin-left: 30px;
+}
+
+.about-loja > h2 {
+    margin-bottom: 20px;
+}
+
+.about-loja > p {
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
+.marcas > img {
+    height: 24px;
+}
+
+.informations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs > input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputs > button {
+    background-color: #182c61;
+    color: #f8f8f8;
+    font-family: 'Bungee', sans-serif;
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+.inputs > textarea {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.medias > div > img {
+    height: 25px;
+}
+
