@@ -8,17 +8,17 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1><a href="#">GAMES SHOP</a></h1>
+        <div class="container" id="home">
+            <h1><a href="#home">GAMES SHOP</a></h1>
             <nav>
-                <a href="#">SOBRE A LOJA</a>
-                <a href="#">CONTATO</a>
+                <a href="#about">SOBRE A LOJA</a>
+                <a href="#contact">CONTATO</a>
             </nav>
         </div>
     </header>
     <main>
         <div class="container">
-            <section class="about">
+            <section class="about" id="about">
                 <div class="image-loja"><img src="images/loja.jpg" alt="Loja Games Shop"></div>
                 <div class="about-loja">
                     <h2>SOBRE A LOJA</h2>
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <h2>CONTATO</h2>
                 <div class="informations">
                     <div class="inputs">
@@ -42,15 +42,17 @@
                         <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
                         <button type="submit">ENVIAR</button>
                     </div>
-                    <div class="medias">
+                    <div>
                         <h3>NOS ACOMPANHE</h3>
-                        <div><img src="images/instagram.png" alt="Instagram"></div>
-                        <div><img src="images/facebook.png" alt="Facebook"></div>
-                        <div><img src="images/youtube.png" alt="YouTube"></div>
+                        <div class="medias">
+                            <div><img src="images/instagram.png" alt="Instagram"></div>
+                            <div><img src="images/facebook.png" alt="Facebook"></div>
+                            <div><img src="images/youtube.png" alt="YouTube"></div>
+                        </div>
                     </div>
                     <div>
                         <h3>VENHA ATÉ NÓS</h3>
-                        <address>Rua JavaScript n° 123, Vila HTML - São Paulo - SP</address>
+                        <p>Rua JavaScript n° 123, Vila HTML - São Paulo - SP</p>
                     </div>
                 </div>
             </section>
